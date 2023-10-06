@@ -8,13 +8,13 @@ This is a Solidity smart contract that implements a basic token called MyToken (
 3.The contract includes a mint function that takes an address and a value as parameters. It 
   increases the total supply by the specified value and adds that value to the balance of the 
   sender's address.
-4.The contract also includes a burn function that works in the opposite way of the mint function. 
-  It takes an address and a value as parameters, deducts the value from the total supply, and 
-  reduces the balance of the sender's address accordingly.
+4.The contract also includes a burn function that works in the opposite way of the mint 
+  function.It takes an address and a value as parameters, deducts the value from the total 
+  supply, and reduces the balance of the sender's address accordingly.
 5.The burn function includes conditionals to ensure that the balance of the sender is greater 
   than or equal to the amount to be burned.
 
-  #Usage
+# Usage
 1.tokenName: A public variable that represents the name of the token. In this contract, it is 
   set to "FUNTOKEN".
 2.tokenAbbrv: A public variable that represents the abbreviation of the token. In this 
@@ -33,5 +33,5 @@ This is a Solidity smart contract that implements a basic token called MyToken (
 
 Please note that this contract is a basic implementation and may require additional functionality and security measures for use in production environments.
 
-#License
+# License
 This contract is not licensed
