@@ -1,7 +1,7 @@
 # Solidity Program:MyToken
 This is a Solidity smart contract that implements a basic token called MyToken (META) with functionalities for minting and burning tokens.
 
-# Requirements
+## Requirements
 1.The contract has public variables to store details about the token, including its name, 
   abbreviation, and total supply.
 2.A mapping is used to track the token balances of different addresses (address => uint).
@@ -14,7 +14,7 @@ This is a Solidity smart contract that implements a basic token called MyToken (
 5.The burn function includes conditionals to ensure that the balance of the sender is greater 
   than or equal to the amount to be burned.
 
-# Usage
+## Usage
 1.tokenName: A public variable that represents the name of the token. In this contract, it is 
   set to "FUNTOKEN".
 2.tokenAbbrv: A public variable that represents the abbreviation of the token. In this 
@@ -33,5 +33,5 @@ This is a Solidity smart contract that implements a basic token called MyToken (
 
 Please note that this contract is a basic implementation and may require additional functionality and security measures for use in production environments.
 
-# License
+## License
 This contract is not licensed
